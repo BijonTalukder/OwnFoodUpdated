@@ -1,0 +1,110 @@
+
+.see_more{
+    font-weight: bold;
+    float: right;
+    font-family: --pfamily;
+    margin-top: -15px;
+  }
+.sf_product-card {
+    float: left;
+    margin-left: 40px;
+    align-items: center;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px;
+    /* padding: 15px 18px; */
+    border-radius: 8px;
+    background: var(--white);
+    border: 1px solid var(--white);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+  }
+  .sf_product-card:hover {
+    border-color: var(--primary);
+    -webkit-box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  .sf_product-card:hover .sf_product-widget {
+    opacity: 1;
+    bottom: 15px;
+  }
+  .sf_product-card:hover .sf_product-add {
+    color: var(--white);
+    background: var(--primary);
+  }
+  .sf_product-media {
+    position: relative;
+  }
+  .sf_product-label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .sf_product-wish {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 18px;
+    color: var(--gray-chalk);
+  }
+  .product-wish.active {
+    color: var(--primary);
+  }
+  .sf_product-image img {
+    width: 100%;
+  }
+  .sf_product-widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+  }
+  .sf_product-widget a {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    margin: 0px 6px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--white);
+    background: var(--primary);
+    text-shadow: var(-primary-tshadow);
+    -webkit-box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.12);
+  }
+
+ .sf_slick_item {
+   
+    text-align:center;
+    margin-right:2px;
+    margin-left:2px;
+  } 
+  

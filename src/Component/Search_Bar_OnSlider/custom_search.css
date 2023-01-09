@@ -1,0 +1,20 @@
+  .searchBox {
+    height: 102px;
+    width: 1000px;
+    margin-left: 17%;
+    position: absolute;
+
+    border-radius: 5px;
+    margin-top: -300px;
+    overflow: hidden;
+    
+    background-color: rgba(29, 72, 228, 0.25);
+
+  }
+
+  .wrap{
+      overflow:hidden;
+      /* background-color: #d61f1f; */
+      opacity:100;
+      
+  }

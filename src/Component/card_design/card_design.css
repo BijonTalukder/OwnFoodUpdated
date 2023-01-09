@@ -1,0 +1,35 @@
+
+
+.sf_kitchen_name{
+    position: relative;
+    background-color:  rgba(2, 22, 88, 0.764);
+    color: white;
+    font-weight: bolder;
+    margin-top: -30px;
+}
+.product-wish2 {
+    position: absolute;
+    top: 28px;
+    right: 0px;
+    font-size: 18px;
+    color: #ddffd5
+}
+.product-wish3{
+    position: absolute;
+    top: 53px;
+    right: 0px;
+    font-size: 18px;
+    color: #ddffd5
+}
+
+.halal_logo{
+    background-color:rgb(238 239 241 / 76%);
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+.halal_wrap{
+    margin-top: -100px;
+    margin-left: -20px;
+}

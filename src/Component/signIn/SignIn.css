@@ -1,0 +1,18 @@
+.sf-form-part{
+    /* background-color: antiquewhite; */
+    background-image: url('../../assets/img/backgroundSIgnin.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  color: white;
+}
+.signIn-innerPart{
+    /* From https://css.glass */
+background: rgba(34, 85, 85, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(102, 70, 70, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(3, 7, 7, 0.3);
+}

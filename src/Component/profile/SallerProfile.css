@@ -1,0 +1,124 @@
+.carousel {
+    width:100%;
+    height:250px;
+    /* margin: auto; */
+  }
+.sallerImage{
+    position: absolute;
+    top: 40%;
+    left: 2%;
+}
+.top-container{
+    background-color: rgba(40, 88, 160, 0.041);
+    height:100vh;
+}
+.profile_section{
+    height: 65vh;
+    border-radius: 5px;
+    width: 100%;
+    /* background-color: #48c5e4; */
+}
+.resturentName{
+    position: absolute;
+    top: 80%;
+    /* padding: 5px 5px 4px 4px; */
+    background-color: rgba(71, 74, 77, 0.644);
+
+ 
+    /* left: 25%; */
+
+}
+.resturentAbout{
+    position: absolute;
+    /* left: 25%; */
+
+}
+.sallerContent{
+    position:absolute;
+
+    
+    top: 70%;
+}
+.reviws {
+    display: flex;
+    align-items: center;
+    /* margin: 0!important; */
+    justify-content: start;
+}
+.reviws span>*{
+    color: goldenrod;
+    font-size: 20px;
+ 
+    /* background-color: red; */
+
+}
+.resturentName h3{
+    color: white;
+
+}
+.asidebar{
+background-color:#080888;
+border-radius: 5px ;
+
+}
+.asidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    border-bottom: 2px solid rgb(62, 29, 209);
+    display: block;
+    /* transition:  width 5s; */
+    /* border-bottom: 2px solid gainsboro; */
+    
+  }
+  
+  .asidebar a:hover {
+    /* border: 1px solid rgb(119, 118, 118); */
+    color: #ffffff;
+    /* border-left: 6px solid rgb(0, 0, 0); */
+    background-color: black;
+  }
+  .asidebar a:focus{
+    background-color: #849dd3;
+    color: black;
+  }
+  .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+/* #tabs{
+	background: #007b5e;
+    color: #eee;
+} */
+/* #tabs h6.section-title{
+    color: #eee;
+} */
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #f3f3f3;
+    background-color: rgb(30, 137, 238);
+    /* border-color: transparent transparent #f3f3f3; */
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* #tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #eee;
+    font-size: 20px;
+} */
+
+.stickytest{
+
+    position: sticky;
+    
+    top: 30%;
+    /* width: 20%; */
+    /* width: 100%; */
+
+}

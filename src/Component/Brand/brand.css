@@ -1,0 +1,16 @@
+.bg-img{
+    background-image: url("../../assets/img/Slider/footer_bg_1.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.bg-transparent_color{
+    background-color:rgba(80, 80, 80, 0.567);
+    position: relative;
+    height: 400px;
+}
+
+.sf_title_color_brand{
+    color: white !important
+}
